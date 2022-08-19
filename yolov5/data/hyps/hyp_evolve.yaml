@@ -1,0 +1,35 @@
+# YOLOv5 Hyperparameter Evolution Results
+# Best generation: 18
+# Last generation: 33
+#    metrics/precision,       metrics/recall,      metrics/mAP_0.5, metrics/mAP_0.5:0.95,         val/box_loss,         val/obj_loss,         val/cls_loss
+#              0.39866,              0.67019,              0.46162,              0.33065,             0.035114,             0.032939,           0.00075672
+
+lr0: 0.01028
+lrf: 0.01079
+momentum: 0.98
+weight_decay: 0.00039
+warmup_epochs: 1.7145
+warmup_momentum: 0.93307
+warmup_bias_lr: 0.1083
+box: 0.05531
+cls: 0.68819
+cls_pw: 0.74552
+obj: 0.90842
+obj_pw: 0.70225
+iou_t: 0.2
+anchor_t: 4.3139
+fl_gamma: 0.0
+hsv_h: 0.02415
+hsv_s: 0.35005
+hsv_v: 0.27729
+degrees: 0.0
+translate: 0.0496
+scale: 0.54291
+shear: 0.0
+perspective: 0.0
+flipud: 0.0
+fliplr: 0.5
+mosaic: 0.99029
+mixup: 0.0
+copy_paste: 0.0
+anchors: 2.1643
